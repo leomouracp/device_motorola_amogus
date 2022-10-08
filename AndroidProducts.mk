@@ -13,8 +13,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_amogus.mk
+    $(LOCAL_DIR)/xdroid_amogus.mk
 
 COMMON_LUNCH_CHOICES += \
-    lineage_amogus-eng \
-    lineage_amogus-userdebug
+    xdroid_amogus-eng \
+    xdroid_amogus-userdebug
