@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 # All components inherited here go to product image
 #
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common_full_phone.mk)
 
 #
 # All components inherited here go to vendor image
