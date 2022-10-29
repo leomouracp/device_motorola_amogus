@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
 
 # Device overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    device/motorola/amogus/overlay
+    device/motorola/amogus/overlay \
+    device/motorola/amogus/overlay-xdroid
 
 # Device DTB/Kernel
 PRODUCT_COPY_FILES += \
