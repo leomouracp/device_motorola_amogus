@@ -41,8 +41,8 @@ if grep -r '#include <linux-private/linux/fib_rules.h>' qcwcn/wifi_hal/common.cp
 	cd ../../..
 	continue
 else
-	$(git fetch https://github.com/ProtonAOSP-NS/hardware_qcom_wlan)
-	$(git cherry-pick e348c0c238dcd09223e5847d9f86ccf16594b735)
+	$(git fetch https://github.com/LineageOS/android_hardware_qcom_wlan lineage-20.0)
+	$(git cherry-pick 183884c2c549b6be3e03c63653aa911fb339a871)
 	cd ../../..
 fi
 
