@@ -41,12 +41,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/motorola/amogus/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-PRODUCT_NAME := xdroid_amogus
+PRODUCT_NAME := crdoid_amogus
 PRODUCT_DEVICE := amogus
 PRODUCT_MODEL := Moto G(8) Family (AOSP)
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-XDROID_MAINTAINER := leomouracp
-XDROID_BOOT := 1080
+CRDROID_MAINTAINER := leomouracp
+CRDROID_BOOT := 1080
